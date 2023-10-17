@@ -1,0 +1,6 @@
+const run = async (files) => {
+  const result = await all(ipfs.add(catPic))
+
+  return result
+}
+return run
